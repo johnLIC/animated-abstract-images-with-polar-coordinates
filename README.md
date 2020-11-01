@@ -12,7 +12,7 @@ The code that parses the output file names expects the above format.  If you do
 
 the dirs and files that are made will have the wrong names, iirc.  The arguments are like this:
 
-> ./polar_v26.py <first frame> <last frame> <display image(s) flag> <save image(s) flag> < generate gif flag>
+> ./polar_v26.py <<first frame>> <<last frame>> <display image(s) flag> <save image(s) flag> < generate gif flag>
   
 This code is always evolving, so I have not cleaned it up at all.  There is a function called mandel() which will make a Mandelbrot set image, which is not being used now.
 
